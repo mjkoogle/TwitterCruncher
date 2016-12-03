@@ -13,5 +13,5 @@ def main():
     print company.get_name()
     print "Current Price: ", company.get_price()
 
-
-main()
+if __name__ == "__main__":
+    main()
